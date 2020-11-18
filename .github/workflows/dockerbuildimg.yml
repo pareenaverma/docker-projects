@@ -4,7 +4,7 @@ on:
     branches: [ master ]  
 jobs:   
   build:    
-    runs-on: ubuntu-20.04    
+    runs-on: ubuntu-latest    
     env:      
       DOCKER_REGISTRY: pareenaverma      
       DOCKER_IMAGE: pareenaverma/c-hello-world-github      
