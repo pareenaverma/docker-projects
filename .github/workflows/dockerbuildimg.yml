@@ -6,7 +6,7 @@ jobs:
   build:    
     runs-on: ubuntu-latest    
     env:      
-      DOCKER_REGISTRY: pareenaverma      
+      DOCKER_REGISTRY: docker.hub.com      
       DOCKER_IMAGE: pareenaverma/c-hello-world-github      
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}  
